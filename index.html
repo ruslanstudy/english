@@ -1440,42 +1440,25 @@
           </h2>
           <p
             class="section-subtitle"
-            data-en="View and download our complete project materials. The presentation covers all aspects of building strong friendships, including values, communication strategies, and practical examples."
-            data-ru="Просмотрите и скачайте наши полные материалы проекта. Презентация охватывает все аспекты построения крепкой дружбы, включая ценности, стратегии общения и практические примеры."
+            data-en="View and download our complete project materials."
+            data-ru="Просмотрите и скачайте материалы проекта."
           >
-            View and download our complete project materials. The presentation
-            covers all aspects of building strong friendships, including values,
-            communication strategies, and practical examples.
+            View and download our complete project materials.
           </p>
         </div>
 
         <div class="pres-showcase reveal-up">
           <div class="pres-mockup">
-            <div class="pres-window">
-              <div class="pres-dots">
-                <span></span><span></span><span></span>
-              </div>
-              <div class="pres-body">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                >
-                  <path
-                    d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"
-                  />
-                  <polyline points="14 2 14 8 20 8" />
-                </svg>
-                <p data-en="presentation.pdf" data-ru="presentation.pdf">
-                  presentation.pdf
-                </p>
-              </div>
-            </div>
-          </div> 
+            <iframe
+              src="./assets/presentation/presentation.pdf"
+              class="pdf-embed"
+              title="Project Presentation"
+            >
+            </iframe>
+          </div>
           <div class="pres-actions">
             <a
-              href="assets/presentation/presentation.pdf"
+              href="./assets/presentation/presentation.pdf"
               target="_blank"
               class="btn magnetic"
             >
@@ -1488,13 +1471,15 @@
                 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                 <circle cx="12" cy="12" r="3" />
               </svg>
-              <span data-en="Open Presentation" data-ru="Открыть презентацию"
-                >Open Presentation</span
+              <span
+                data-en="Open PDF in new tab"
+                data-ru="Открыть PDF в новой вкладке"
+                >Open PDF in new tab</span
               >
             </a>
             <a
-              href="assets/presentation/presentationc.pptx"
-              download
+              href="./assets/presentation/presentation.pptx"
+              download="presentation.pptx"
               class="btn btn-outline magnetic"
             >
               <svg
@@ -1507,27 +1492,10 @@
                   d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"
                 />
               </svg>
-              <span data-en="Download PDF" data-ru="Скачать PDF"
-                >Download PDF</span
-              >
-            </a>
-            <a
-              href="assets/presentation/presentation.pptx"
-              download
-              class="btn btn-outline magnetic"
-            >
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"
-                />
-              </svg>
-              <span data-en="Download PPTX" data-ru="Скачать PPTX"
-                >Download PPTX</span
+              <span
+                data-en="Download PowerPoint (.pptx)"
+                data-ru="Скачать PowerPoint (.pptx)"
+                >Download PowerPoint (.pptx)</span
               >
             </a>
           </div>
@@ -1624,6 +1592,6 @@
       </div>
     </section>
 
-   <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
